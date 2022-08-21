@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+ul{
+    background-color: rgb(58, 52, 52);
+    background-size:cover;
+    height: fit-content;
+    text-align: center;
+    margin: 0;
+}
+li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 34px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: agency fb;
+   
+}
+li a:hover{
+    background-color: rgb(119, 115, 115);
+}
+.login2{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    margin-top: -px;
+    background:linear-gradient(grey, white, black);
+}
+button{
+    height: 30px;
+    width: 100px;
+    background: aquamarine;
+    font-family: Franklin Gothic Medium;
+    font-size: 20px;
+}
+button:hover{
+    background-color: black;
+    color: darkorchid;
+    border: 3px solid darkgray;
+}
+#login{
+    
+    height: 250px;
+    width: 450px;
+    font-family: arial black;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 10px 10px grey ;
+    border-radius: 70px 50px / 10px ;
+    margin-left: 35%;
+    background-color: aqua;
+}
+#register{
+    height: 370px;
+    width: 550px;
+    font-family: arial black;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 10px 10px ;
+    border-radius: 70px 50px / 10px ;
+    margin-left: 30%;
+    background-color: aqua;
+}
+input{
+    height:30px;
+    width: 300px;
+}
+.logo{
+    height: 40px;
+    width: 50px;
+    float: left;
+}

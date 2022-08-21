@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ese.css">
+    <title>Document</title>
+</head>
+<body>
+   <ul>
+    
+    <li><a href="#login" onclick="document.getElementById('login').style.display='block';
+                                  document.getElementById('register').style.display='none';
+                                  document.getElementById('login').style.color='tomato';
+                                  document.querySelector('.login2').style.background='url(3016802.jpg)';
+                                  document.querySelector('.login2').style.background='cover';">
+                                  LOGIN</a></li>
+    <li><a href="#register" onclick="document.getElementById('register').style.display='block';
+                                     document.getElementById('register').style.color='white'; 
+                                     document.getElementById('login').style.display='none';
+                                      document.querySelector('.login2').style.background='grey';">REGISTER</a></li>
+   </ul>
+   
+   <div class="login2">
+    <div id="login">
+        <a style="font-family: agency fb; font-size: 60px; font-weight: bold;">LOGIN</a><br><br>
+        User-Name: <input type="text"  id="content" placeholder="Enter your Name" ><br><br>
+        Password: <input type="password" id="content1" placeholder="Enter password"><br><br>
+        <button onclick="ese()">LOGIN</button>
+    </div>
+    <div id="register">
+        <a style="font-family: agency fb; font-size: 60px; font-weight: bold;">REGISTER</a><br><br>
+        User-Name: <input type="text" id="username" placeholder="Enter your Name"><br><br>
+    E-mail: <input type="email" id="email" placeholder="Enter your E-mail"><br><br>
+        Password: <input type="password" id="password" placeholder="Enter password"><br><br>
+        Verify-password: <input type="password" id="verify-password" placeholder="Enter Password for verification"><br><br>
+        <button onclick="ese1()">REGISTER</button>
+    </div>
+   </div>
+    <script>
+        //console.log(window.document.querySelector('.form1').style.display='none');//
+        document.getElementById('login').style.display='none';
+        document.getElementById('register').style.display='none';
+        function ese (){
+        var user1= document.getElementById('content1').value;               
+        var user= document.getElementById('content').value;
+        console.log(user);
+        console.log(user1);    
+    }
+        function ese1 (){
+        var user2= document.getElementById('username').value;               
+        var user3= document.getElementById('email').value;
+        var user4= document.getElementById('password').value;
+        var user5= document.getElementById('verify-password').value;
+        console.log('username:'+' ' + user2);
+        console.log('email:'+' ' + user3);
+        console.log('password:'+' ' + user4);
+        console.log('verify-password:'+' ' + user5);    
+    }
+    </script>
+</body>
+</html
+
+>
